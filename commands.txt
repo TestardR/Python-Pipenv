@@ -9,3 +9,11 @@ pipenv uninstall camelcase
 
 // install dev dependencies
 pipenv install nose --dev
+
+// to install several dependencies in one file
+pipenv install -r ./requirements.txt
+
+// vulnerabilities check
+pipenv check
+// to update dependencies, change in Pipfile, then run :
+pipenv install
