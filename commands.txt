@@ -17,3 +17,12 @@ pipenv install -r ./requirements.txt
 pipenv check
 // to update dependencies, change in Pipfile, then run :
 pipenv install
+
+// to see your dependencies graph
+pipenv graph
+
+// to deploy, you want to
+1. Prepare your lock file
+pipenv lock
+2. Once you get on your server
+pipenv install --ignore-pipfile
