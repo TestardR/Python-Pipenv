@@ -1,2 +1,11 @@
 pipenv shell
-pipenv 
+pipenv install camelcase
+
+// to check your dependencies
+pipenv lock -r
+
+// to uninstall dependencies
+pipenv uninstall camelcase
+
+// install dev dependencies
+pipenv install nose --dev
