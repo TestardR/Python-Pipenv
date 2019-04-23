@@ -32,3 +32,8 @@ pipenv --python 3.6
 
 // path to your virtual environmental
 pipenv -venv
+
+// create a .env
+pipenv run python
+import os
+os.environ['SECRET_KEY']
