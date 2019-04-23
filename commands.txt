@@ -26,3 +26,9 @@ pipenv graph
 pipenv lock
 2. Once you get on your server
 pipenv install --ignore-pipfile
+
+// to change python's version, change it in Pipfile,then : 
+pipenv --python 3.6
+
+// path to your virtual environmental
+pipenv -venv
